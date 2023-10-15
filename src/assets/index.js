@@ -28,9 +28,12 @@ import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import newsapp from "./portfolio1.jpg";
+import textutil from "./portfolio2.jpg";
+import weatherapp from "./portfolio3.jpg";
+import todolist from "./portfolio4.jpg";
+import keeperapp from "./portfolio5.png";
+import newsletter from "./portfolio6.jpg";
 
 export {
   logo,
@@ -58,9 +61,12 @@ export {
   shopify,
   starbucks,
   tesla,
-  carrent,
-  jobit,
-  tripguide,
+  newsapp,
+  textutil,
+  weatherapp,
+  todolist,
+  keeperapp,
+  newsletter,
   livedemo,
   gitHub,
 };

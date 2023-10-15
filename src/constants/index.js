@@ -19,10 +19,13 @@ import {
     starbucks,
     tesla,
     shopify,
-    carrent,
-    jobit,
-    tripguide,
+    newsapp,
+    textutil,
+    todolist,
+    keeperapp,
+    newsletter,
     mysql,
+    weatherapp,
   } from "../assets";
   
   export const navLinks = [
@@ -155,16 +158,16 @@ import {
       ],
     },
     {
-      title: "Full stack Developer",
+      title: "Cloud Computing",
       company_name: "",
       icon: meta,
       iconBg: "#E6DEDD",
       date: "Jan 2023 - Present",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "I have a deep interest in learing about cloud computing",
+        "Although this I am a beginner and have so many thing to learn",
+        "I want to build website on cloud servers.",
+        "Will be participating in many cloud events.",
       ],
     },
   ];
@@ -198,7 +201,7 @@ import {
   
   const projects = [
     {
-      name: "NewsApp-React and NewsApi",
+      name: "NewsApp",
       description:
         "Web-based platform that allows users to search for the required and the lastest news they want to fetch.",
       tags: [
@@ -215,12 +218,12 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
-      live_demo_link:"https://github.com/",
+      image: newsapp,
+      source_code_link: "https://github.com/AadilGani-22/News_App_ReactJs",
+      live_demo_link:"https://github.com/AadilGani-22/News_App_ReactJs",
     },
     {
-      name: "NewsApp-React and NewsApi",
+      name: "TextUtils",
       description:
         "Web-based platform that allows users to search for the required and the lastest news they want to fetch.",
       tags: [
@@ -229,123 +232,97 @@ import {
           color: "blue-text-gradient",
         },
         {
-          name: "NewsApi",
-          color: "green-text-gradient",
-        },
-        {
           name: "BootStrap",
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
-      live_demo_link:"https://github.com/",
+      image: textutil,
+      source_code_link: "https://github.com/AadilGani-22/Textutils-ManageYourTexts",
+      live_demo_link:"https://mytextsutilities.netlify.app/",
     },
     {
-      name: "Job IT",
+      name: "Weather App",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Web application that enables user to get to know the weather about any location along with the wind speed and humidity of that location",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "weatherapi",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "bootstrap",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
-      live_demo_link:"https://github.com/",
+      image: weatherapp,
+      source_code_link: "https://github.com/AadilGani-22/WeatherApp_ReactJs",
+      live_demo_link:"https://forecast-today.netlify.app/",
     },
     {
-      name: "Job IT",
+      name: "To do List",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "This app allows you to manage your tasks and make them eaiser to do just add them to your to do list and scrape it when its done.",
       tags: [
         {
-          name: "react",
+          name: "nodejs",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "bootstrap",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "embeddedjs",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: todolist,
+      source_code_link: "https://github.com/AadilGani-22/To-do-List",
+      live_demo_link:"https://to-do-list-869l.onrender.com/",
     },
     {
-      name: "Job IT",
+      name: "Keeper App",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "This app allows you to keep your notes and following with a title and you can delete whenever you want.",
       tags: [
         {
-          name: "react",
+          name: "reactjs",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
-          color: "green-text-gradient",
-        },
-        {
-          name: "scss",
+          name: "bootstrap",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: keeperapp,
+      source_code_link: "https://github.com/AadilGani-22/To-do-List",
+      live_demo_link:"https://to-do-list-869l.onrender.com/",
     },
     {
-      name: "Job IT",
+      name: "News-Letter SignUp",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "This app allows you to sign up for my news-letter and subscibe to my content and when ever I push anything in the letter all the users ",
       tags: [
         {
-          name: "react",
+          name: "mailchimp",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "bootstrap",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "nodejs",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Trip Guide",
-      description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-      tags: [
-        {
-          name: "nextjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "supabase",
-          color: "green-text-gradient",
-        },
-        {
-          name: "css",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: newsletter,
+      source_code_link: "https://github.com/AadilGani-22/NewsLetterSignUp",
+      live_demo_link:"https://news-letter-signup-eq85.onrender.com",
     },
   ];
   
