@@ -15,15 +15,21 @@ import {
     git,
     boot,
     python,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
+    software,
+    fsd,
+    cloud,
+    datascience,
     newsapp,
     textutil,
     todolist,
     keeperapp,
     newsletter,
+    secrets,
+    foodwebsite,
+    drum,
+    varcons,
+    webdev,
+    cmrit,
     mysql,
     weatherapp,
   } from "../assets";
@@ -120,8 +126,8 @@ import {
   const experiences = [
     {
       title: "Full Stack Developer",
-      company_name: "",
-      icon: starbucks,
+      company_name: "MERN",
+      icon: fsd,
       iconBg: "#383E56",
       date: "March 2023 - July 2023",
       points: [
@@ -133,8 +139,8 @@ import {
     },
     {
       title: "Data Science Enthusiast",
-      company_name: "",
-      icon: tesla,
+      company_name: "Python",
+      icon: datascience,
       iconBg: "#E6DEDD",
       date: "Jan 2021 - Feb 2022",
       points: [
@@ -146,8 +152,8 @@ import {
     },
     {
       title: "Software Engineer",
-      company_name: "",
-      icon: shopify,
+      company_name: "C++, Java",
+      icon: software,
       iconBg: "#383E56",
       date: "Jan 2022 - Jan 2023",
       points: [
@@ -159,8 +165,8 @@ import {
     },
     {
       title: "Cloud Computing",
-      company_name: "",
-      icon: meta,
+      company_name: "AWS",
+      icon: cloud,
       iconBg: "#E6DEDD",
       date: "Jan 2023 - Present",
       points: [
@@ -175,27 +181,27 @@ import {
   const testimonials = [
     {
       testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
+        "Worked as a full-stack intern for 8-week in the Varcons Technology Pvt Ltd. It was a great experience.",
+      name: "Intern",
+      designation: "",
+      company: "Varcons Tech",
+      image: varcons,
     },
     {
       testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
+        "Won 2nd Price at Web-development compition at CMRIT By Coding Ninja.",
+      name: "2nd Prize",
+      designation: "WebItOut",
+      company: "Coding Ninja Club",
+      image: webdev ,
     },
     {
       testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
+        "Awarded 4th place in web dev competition. Project was based on Academic evaluation on fuzzy logic.",
+      name: "4th Prize",
+      designation: "Project Exhibition",
+      company: "CMRIT",
+      image: cmrit,
     },
   ];
   
@@ -243,7 +249,7 @@ import {
     {
       name: "Weather App",
       description:
-        "Web application that enables user to get to know the weather about any location along with the wind speed and humidity of that location",
+        "Web application that enables user to get to know the weather about any location along with wind speed and humidity of that location",
       tags: [
         {
           name: "react",
@@ -272,7 +278,7 @@ import {
           color: "blue-text-gradient",
         },
         {
-          name: "bootstrap",
+          name: "mongodb",
           color: "green-text-gradient",
         },
         {
@@ -287,7 +293,7 @@ import {
     {
       name: "Keeper App",
       description:
-        "This app allows you to keep your notes and following with a title and you can delete whenever you want.",
+        "This app allows you to keep your notes and following with a title and you can delete whenever you want when the task is done and it uses mongodb for backend.",
       tags: [
         {
           name: "reactjs",
@@ -299,8 +305,8 @@ import {
         },
       ],
       image: keeperapp,
-      source_code_link: "https://github.com/AadilGani-22/To-do-List",
-      live_demo_link:"https://to-do-list-869l.onrender.com/",
+      source_code_link: "https://github.com/AadilGani-22/Keeper_App",
+      live_demo_link:"https://take-a-note-apps.netlify.app/",
     },
     {
       name: "News-Letter SignUp",
@@ -323,6 +329,72 @@ import {
       image: newsletter,
       source_code_link: "https://github.com/AadilGani-22/NewsLetterSignUp",
       live_demo_link:"https://news-letter-signup-eq85.onrender.com",
+    },
+    {
+      name: "Secrets Keeper",
+      description:
+        "This app allows you to share your secrets anonimously. U just have to login and you can share your secrets and know about your friends secrets anonimously. ",
+      tags: [
+        {
+          name: "security #hasing",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "mongodb",
+          color: "green-text-gradient",
+        },
+        {
+          name: "nodejs",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: secrets,
+      source_code_link: "https://github.com/AadilGani-22/Secrets",
+      live_demo_link:"https://secrets-7b73.onrender.com/",
+    },
+    {
+      name: "Food Website",
+      description:
+        "This is a frontend website for your food delivery app. This allows the customers to choose the food they wish to buy. There are a lot of food variety for the customers.",
+      tags: [
+        {
+          name: "HTML",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "CSS",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Javascript",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: foodwebsite,
+      source_code_link: "https://github.com/AadilGani-22/Responsive-Food-Website",
+      live_demo_link:"https://aadilgani-22.github.io/Responsive-Food-Website/",
+    },
+    {
+      name: "Drum Kits",
+      description:
+        "This app allows you to listen to the drum notes and make your own. You can listen and enjoy with your friends and share with them to make your day cheerfull.",
+      tags: [
+        {
+          name: "HTML",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "CSS",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Javascript",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: drum,
+      source_code_link: "https://github.com/AadilGani-22/Drum-Kit",
+      live_demo_link:"https://aadilgani-22.github.io/Drum-Kit/",
     },
   ];
   

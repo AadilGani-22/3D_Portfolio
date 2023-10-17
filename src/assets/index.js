@@ -7,6 +7,9 @@ import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 import livedemo from './livedemo.png'
+import webdev from './webdev.png'
+import varcons from './varcons.jpeg'
+import cmrit from './cmrit.jpg'
 
 import css from "./tech/css.png";
 import python from "./tech/python.png";
@@ -23,10 +26,10 @@ import cpp from "./tech/cpp.png";
 import mysql from "./tech/mysql.jpeg";
 import gitHub from './tech/github.png'
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
+import fsd from "./company/fsd.jpg";
+import datascience from "./company/datascience.jpg";
+import cloud from "./company/cloud.jpg";
+import software from "./company/software.jpg";
 
 import newsapp from "./portfolio1.jpg";
 import textutil from "./portfolio2.jpg";
@@ -34,6 +37,9 @@ import weatherapp from "./portfolio3.jpg";
 import todolist from "./portfolio4.jpg";
 import keeperapp from "./portfolio5.png";
 import newsletter from "./portfolio6.jpg";
+import secrets from "./portfolio7.jpg";
+import drum from "./portfolio14.jpg";
+import foodwebsite from "./portfolio13.jpg";
 
 export {
   logo,
@@ -57,16 +63,22 @@ export {
   express,
   cpp,
   mysql,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
+  software,
+  cloud,
+  fsd,
+  datascience,
   newsapp,
   textutil,
   weatherapp,
   todolist,
   keeperapp,
   newsletter,
+  secrets,
+  foodwebsite,
+  drum,
   livedemo,
+  webdev,
+  cmrit,
+  varcons,
   gitHub,
 };
